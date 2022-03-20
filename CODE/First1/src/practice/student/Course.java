@@ -6,12 +6,12 @@ public class Course {
 	private static String courseName = "biology";
 	private static double courseSalery = 100.78;
 	private static char midianIntial = 'k';
-	private static boolean isExtentionCourse = true;
+	private static boolean isCourseHard = false;
   public static void main(String[]args) {
 	  System.out.println(courseId);
 	  System.out.println(courseName);
 	  System.out.println(courseSalery);
-	  System.out.println(isExtentionCourse);
+	  System.out.println(isCourseHard);
 	  System.out.println(midianIntial);
   }
 }  
